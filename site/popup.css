@@ -1,0 +1,35 @@
+.show{
+    display: flex;
+}
+
+.show > div{
+    margin: 20px;
+}
+
+.show > div:last-child > a >img{
+    width: 160px;
+}
+
+.title{
+    font-family: '맑은 고딕';
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.content{
+    font-family: '맑은 고딕';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.more{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background: #2F7AFA;
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 25px 60%;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.flex_container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flex_container > div{
+    width: 150px;
+    height: 150px;
+}
+
+.box1{
+    background: red;
+    
+}
+
+.box2{
+    background: green;
+    
+}
+
+.box3{
+    background: blue;
+    
+}
